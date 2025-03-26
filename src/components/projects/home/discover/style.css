@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital@0;1&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.discover-block-title {
+    text-align: center;
+}
+
+#color-ludos-plugin {
+    color: #5271FF;
+}
+
+.discover-block-paragraph {
+    display: flex;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.discover-block-fight {
+    display: inline-flex;
+    background-color: #5271FF;
+    padding: 20px 20px 20px 20px;
+}
+
+.discover-block-fight h2{
+    /* color: #FFFFFF; */
+}
+
+.discover-block-join {
+    display: inline-flex;
+    background-color: #5271FF;
+}
+
+.discover-block-join h2{
+    /* color: #FFFFFF; */
+}

@@ -4,6 +4,18 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.header-block-hide {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    /* right: -250px; */
+    /* padding-top: 60px; */
+    background-color: beige;
+    transition: left 0.5s ease;
+}
+
 .header-block-logo img {
     width: 50%;
 }
@@ -11,6 +23,7 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 4%;
     padding-top: 1%;
     padding-right: 4%;
@@ -22,6 +35,24 @@ body {
 
 .header-block-ul-li li {
     list-style: none;
-    padding-left: 10px;
+    padding-left: 20px;
     font-weight: bold;
+}
+
+.header-block-burger-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-block-burger-icon {
+        display: block;
+    }
+
+    .header-block-burger-icon {
+        width: 40%;
+    }
+
+    .header-block-ul-li {
+        display: none;
+    }
 }
