@@ -14,25 +14,165 @@ body {
 
 .discover-block-paragraph {
     display: flex;
+    justify-content: center;
     text-align: center;
     margin-top: 60px;
 }
 
-.discover-block-fight {
+.discover-block-paragraph p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* First block discover */
+
+.discover-block-first {
+    display: flex;
+    justify-content: center;
+}
+
+.discover-block-sword {
     display: inline-flex;
     background-color: #5271FF;
     padding: 20px 20px 20px 20px;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
 }
 
-.discover-block-fight h2{
-    /* color: #FFFFFF; */
+.discover-block-sword h2{
+    color: #FFFFFF;
 }
 
-.discover-block-join {
+.img-class-sword-left {
+    padding-right: 40px;
+}
+
+.img-class-sword-right {
+    padding-left: 40px;
+}
+
+.discover-block-sword-paragraph {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.10);
+    border-radius: 5px;
+}
+
+.discover-block-first-1 {
+    margin-right: 50px;
+}
+
+.discover-block-first-2 {
+    margin-left: 50px;
+}
+
+.discover-block-hands {
     display: inline-flex;
     background-color: #5271FF;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
 }
 
-.discover-block-join h2{
-    /* color: #FFFFFF; */
+.discover-block-hands h2{
+    color: #FFFFFF;
+}
+
+.img-class-hands-left {
+    padding-right: 40px;
+}
+
+.img-class-hands-right {
+    padding-left: 40px;
+}
+
+.discover-block-hands-paragraph {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.10);
+    border-radius: 5px;
+}
+
+/* Second block discover */
+
+.discover-block-second {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.discover-block-pencil {
+    display: inline-flex;
+    background-color: #5271FF;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
+}
+
+.discover-block-second-1 {
+    margin-right: 50px;
+}
+
+.discover-block-second-2 {
+    margin-left: 50px;
+}
+
+.discover-block-pencil h2{
+    color: #FFFFFF;
+}
+
+.img-class-pencil-left {
+    padding-right: 40px;
+}
+
+.img-class-pencil-right {
+    padding-left: 40px;
+}
+
+.discover-block-pencil-paragraph {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.10);
+}
+
+.discover-block-second-2 {
+    margin-left: 60px;
+}
+
+.discover-block-sprout {
+    display: inline-flex;
+    background-color: #5271FF;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
+}
+
+.discover-block-sprout h2{
+    color: #FFFFFF;
+}
+
+.img-class-sprout-left {
+    padding-right: 40px;
+}
+
+.img-class-sprout-right {
+    padding-left: 40px;
+}
+
+.discover-block-sprout-paragraph {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.10);
 }

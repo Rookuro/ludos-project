@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital@0;1&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.feature-container {
+    text-align: center;
+}
+
+.feature-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.feature-first {
+}
+
+.feature-first p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.feature-first img{
+    width: 40%;
+}
+
+.feature-second {
+}
+
+.feature-second p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.feature-second img{
+    width: 40%;
+}
+
+.feature-third {
+}
+
+.feature-third p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.feature-third img{
+    width: 40%;
+}

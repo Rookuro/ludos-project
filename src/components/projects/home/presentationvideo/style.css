@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital@0;1&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.presentationvideo-container {
+    width: 100%;
+    height: auto;
+    background-color: #DFE4FF;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.presentationvideo-title {
+    display: flex;
+    justify-content: center;
+}
+
+.presentationvideo-title h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.presentationvideo-video-youtube {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.presentationvideo-video-youtube iframe {
+    border-radius: 8px;
+}
