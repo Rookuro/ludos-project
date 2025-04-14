@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital@0;1&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.download-container {
+    width: 100%;
+    height: auto;
+    background-color: #DFE4FF;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+    
+.download-container h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.download-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.title-column th{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 90px;
+}
+
+.data-column td{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 90px;
+}
+
+.download-block-background {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px 30px 20px 0px;
+    border-radius: 20px;
+}
+
+.download-block-button {
+    background-color: #5271FF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-left: 2%;
+}
+
+.download-block-curseforge-github {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.download-block-curseforge {
+    background-color: #5271FF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.download-block-curseforge a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.download-block-curseforge-img {
+    width: 25%;
+}
+
+.download-block-github a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.download-block-github {
+    background-color: #5271FF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.download-block-github-img {
+    width: 25%;
+}
+
