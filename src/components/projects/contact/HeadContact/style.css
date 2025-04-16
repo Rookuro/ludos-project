@@ -7,10 +7,12 @@ body {
 .headcontact-container {
     text-align: center;
     background-color: #5271FF;
+    color: #FFFFFF;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .headcontact-title {
-    color: #FFFFFF;
     font-size: 40px;
     font-weight: 700;
 }
