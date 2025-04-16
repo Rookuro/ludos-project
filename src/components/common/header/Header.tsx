@@ -19,7 +19,7 @@ return(
                 </div>
                 <div className="header-block-link">
                     <ul className="header-block-ul-li">
-                        <li>Archives</li>
+                        <li><Link id="header-block-link" to="/archives">Archives</Link></li>
                         <li>Commandes</li>
                         <li><Link id="header-block-link" to="/contact">Contact</Link></li>
                     </ul>

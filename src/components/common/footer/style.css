@@ -55,15 +55,33 @@ body {
 
 .footer-block-joinus-support {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
 }
+
+.footer-block-title-joinus {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-block-list-img {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-block-joinus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
 }
 
 .footer-block-support {
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 

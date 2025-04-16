@@ -24,7 +24,7 @@ export default function Footer() {
                     </div>
                     <div className="footer-block-joinus-support">
                         <div className="footer-block-joinus">
-                            <h1 id="footer-block-title">Nous rejoindre</h1>
+                            <h1 className="footer-block-title-joinus">Nous rejoindre</h1>
                             <div className="footer-block-list-img">
                                 <img src={iconYoutube} alt='icon-youtube' className="icon-youtube-img"/>
                                 <img src={iconInstagram} alt='icon-instagram' className="icon-instagram-img"/>

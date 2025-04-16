@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
+import Archives from './pages/Archives'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/archives" element={<Archives />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

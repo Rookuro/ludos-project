@@ -9,27 +9,27 @@ export default function Download() {
                 <h1>Téléchargement</h1>
                 <div className="download-block">
                     <div className='download-block-background'>
-                    <table className="download-custom-table">
-                        <thead>
-                            <tr className="title-column">
-                                <th>Minecraft version</th>
-                                <th>Version</th>
-                                <th>Taille</th>
-                                <th>Date de sortie</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr className="data-column">
-                                <td>1.21</td>
-                                <td>1.0</td>
-                                <td>132 KO</td>
-                                <td>Mardi 1 Janvier 2025</td>
-                            </tr>
-                        </tbody>
-                        </table>
-                    </div>
-                    <div className="download-block-button">
-                        <a>Télécharger</a>
+                        <table className="download-custom-table">
+                            <thead>
+                                <tr className="title-column">
+                                    <th>Minecraft version</th>
+                                    <th>Version</th>
+                                    <th>Taille</th>
+                                    <th>Date de sortie</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr className="data-column">
+                                    <td>1.21</td>
+                                    <td>1.0</td>
+                                    <td>132 KO</td>
+                                    <td>Mardi 1 Janvier 2025</td>
+                                </tr>
+                            </tbody>
+                            </table>
+                        <div className="download-block-button">
+                            <a>Télécharger</a>
+                        </div>
                     </div>
                 </div>
                 <div className="download-block-curseforge-github">
