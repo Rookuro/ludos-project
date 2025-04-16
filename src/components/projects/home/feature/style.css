@@ -24,7 +24,7 @@ body {
 }
 
 .feature-first img{
-    width: 30%;
+    width: 20%;
 }
 
 .feature-second {
@@ -36,7 +36,7 @@ body {
 }
 
 .feature-second img{
-    width: 30%;
+    width: 20%;
 }
 
 .feature-third {
@@ -48,5 +48,5 @@ body {
 }
 
 .feature-third img{
-    width: 30%;
+    width: 20%;
 }
