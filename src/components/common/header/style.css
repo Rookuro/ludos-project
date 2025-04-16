@@ -37,6 +37,11 @@ body {
     font-weight: bold;
 }
 
+#header-block-link {
+    text-decoration: none;
+    color: #000000;
+}
+
 .header-block-burger-icon {
     display: none;
 }

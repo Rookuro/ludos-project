@@ -1,12 +1,21 @@
+import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
 import Home from './pages/Home'
+import Contact from './pages/Contact'
+import NotFound from './pages/NotFound'
 
 
 function App() {
   
   return (
     <>
-      <Home/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital@0;1&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.headcontact-container {
+    text-align: center;
+    background-color: #5271FF;
+}
+
+.headcontact-title {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+}
